@@ -4,12 +4,12 @@ from os import environ
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "23283708"))
 API_HASH = os.environ.get("API_HASH", "7805011fb84729023531f0fa3f000bec")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8276082341:AAHtEZwGawulAw-9JeP-5rfG05MLC3KFbHc")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8276082341:AAHtEZwG")
 
 CREDIT = os.environ.get("CREDIT", "SONIC⚝")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Bhardwaj143")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://bmrs41378_db_user:VnIUMf1Z7s7JfIdG@bhardwaj143.i0lvyet.mongodb.net/?retryWrites=true&w=majority&appName=Bhardwaj143")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Bha")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb3")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
